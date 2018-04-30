@@ -13,7 +13,7 @@ import upeu.edu.pe.william.EventoViewHolder;
 import upeu.edu.pe.william.R;
 
 /**
- * Created by Redes on 26/04/2018.
+ * Created by William on 29/04/2018.
  */
 
 public class EventoRecyclerAdapter extends RecyclerView.Adapter<EventoViewHolder> {

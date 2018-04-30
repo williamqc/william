@@ -5,9 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 import pe.edu.upeu.dbexterno.ExternalSQLiteOpenHelper;
 
-/**
- * Created by Redes on 23/04/2018.
- */
+
 
 public class DBExterno extends ExternalSQLiteOpenHelper{
 

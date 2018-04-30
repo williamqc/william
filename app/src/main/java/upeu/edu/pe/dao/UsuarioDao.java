@@ -7,9 +7,6 @@ import android.database.sqlite.SQLiteDatabase;
 import upeu.edu.pe.db.DBExterno;
 import upeu.edu.pe.db.DBconn;
 
-/**
- * Created by Docente on 6/02/2018.
- */
 
 public class UsuarioDao extends DBExterno {
     DBExterno con;

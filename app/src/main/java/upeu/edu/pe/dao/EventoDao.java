@@ -10,9 +10,7 @@ import java.util.List;
 import upeu.edu.pe.db.DBconn;
 import upeu.edu.pe.to.EventoTO;
 
-/**
- * Created by Docente on 6/02/2018.
- */
+
 
 public class EventoDao extends DBconn {
     DBconn con;

@@ -5,9 +5,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 import pe.edu.upeu.dbexterno.ExternalSQLiteOpenHelper;
 
-/**
- * Created by William on 2/04/2018.
- */
+
 
 public class DBconnExterno extends ExternalSQLiteOpenHelper{
     private final static String NAME_DATABASE="asistenciadb.db";

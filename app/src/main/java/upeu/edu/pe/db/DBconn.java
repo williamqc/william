@@ -4,9 +4,6 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-/**
- * Created by Docente on 6/02/2018.
- */
 
 public class DBconn extends SQLiteOpenHelper {
     private static final String DATABASE_NAME="asistenciadb.db";

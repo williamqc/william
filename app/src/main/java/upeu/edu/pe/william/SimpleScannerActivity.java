@@ -15,7 +15,7 @@ import upeu.edu.pe.dao.AsistenciaDao;
 import upeu.edu.pe.dao.EventoDao;
 
 /**
- * Created by Docente on 5/02/2018.
+ * Created by William on 29/04/2018.
  */
 
 public class SimpleScannerActivity extends Activity implements ZXingScannerView.ResultHandler {

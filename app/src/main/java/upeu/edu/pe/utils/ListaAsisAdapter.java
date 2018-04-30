@@ -14,7 +14,7 @@ import java.util.List;
 import upeu.edu.pe.to.AsistenciaTO;
 
 /**
- * Created by Docente on 7/02/2018.
+ * Created by William on 29/04/2018.
  */
 
 public class ListaAsisAdapter extends ArrayAdapter<AsistenciaTO>{

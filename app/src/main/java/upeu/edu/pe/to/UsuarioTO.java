@@ -1,7 +1,7 @@
 package upeu.edu.pe.to;
 
 /**
- * Created by Docente on 12/02/2018.
+ * Created by William on 29/04/2018.
  */
 
 public class UsuarioTO {

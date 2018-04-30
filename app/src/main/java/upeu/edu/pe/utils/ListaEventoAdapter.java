@@ -18,7 +18,7 @@ import upeu.edu.pe.william.ActivarEventoActivity;
 import upeu.edu.pe.william.R;
 
 /**
- * Created by Docente on 14/02/2018.
+ * Created by William on 29/04/2018.
  */
 
 public class ListaEventoAdapter extends ArrayAdapter<EventoTO> {

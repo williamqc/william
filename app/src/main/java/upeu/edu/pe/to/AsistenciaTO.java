@@ -1,8 +1,6 @@
 package upeu.edu.pe.to;
 
-/**
- * Created by Docente on 7/02/2018.
- */
+
 
 public class AsistenciaTO {
     int idAsistencia;
