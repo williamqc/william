@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">william</string>
+    <string name="title_login">Assistance Registration System</string>
+    <string name="txt_user">User:</string>
+    <string name="txt_password">Password:</string>
+    <string name="btn_sing">Login</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_regasist">Assistance Registration</string>
+</resources>

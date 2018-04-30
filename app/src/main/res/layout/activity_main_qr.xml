@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainQRActivity">
+
+    <RelativeLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="11dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/idBtnRegistrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_regasist" />
+
+            <TextView
+                android:id="@+id/idResultado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/idBtnReg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRegistrar"
+                android:text="Registrar Opc. Dos" />
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="scanerQR"
+                android:text="Opcion 3" />
+
+            <Button
+                android:id="@+id/btnRegistro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onResultado"
+                android:text="Ver registro" />
+
+            <Button
+                android:id="@+id/idBtnListar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onListarasitencia"
+                android:text="Listar Asistencia" />
+
+            <Button
+                android:id="@+id/IdBtnRest"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onRest"
+                android:text="REST" />
+
+            <Button
+                android:id="@+id/idBtnActivarEvento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="onActivarevento"
+                android:text="Activar Evento" />
+        </LinearLayout>
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

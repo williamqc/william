@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "703052646782",
+    "firebase_url": "https://william-de29b.firebaseio.com",
+    "project_id": "william-de29b",
+    "storage_bucket": "william-de29b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:703052646782:android:d31540e26bf76c16",
+        "android_client_info": {
+          "package_name": "upeu.edu.pe.william"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "703052646782-e272n6dmdqtr82qjaog7k3pf8755o52q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "upeu.edu.pe.william",
+            "certificate_hash": "e64869f3dda829cc168019418bd33788d0d948e3"
+          }
+        },
+        {
+          "client_id": "703052646782-adonola44f0vablsg4t4pp90c51qq364.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCg3J9TcarvvM1vpfxYAgTLSIFumbYEc40"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "703052646782-adonola44f0vablsg4t4pp90c51qq364.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
