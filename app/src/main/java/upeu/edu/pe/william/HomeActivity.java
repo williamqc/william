@@ -90,7 +90,10 @@ public class HomeActivity extends AppCompatActivity
 
 
 
-        } else if (id == upeu.edu.pe.william.R.id.nav_gallery) {
+        } else if (id == R.id.nav_registro) {{
+            startActivity(new Intent(this,Reg_asistecia.class));
+
+        }
 
         } else if (id == upeu.edu.pe.william.R.id.nav_slideshow) {
 
