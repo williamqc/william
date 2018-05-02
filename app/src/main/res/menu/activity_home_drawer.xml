@@ -13,7 +13,7 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Reg. asistencia" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_asistenciaw"
             android:icon="@drawable/ic_reportar_asistecia"
             android:title="Rep. asistencia" />
         <item

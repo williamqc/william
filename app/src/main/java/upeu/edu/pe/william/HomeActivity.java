@@ -17,7 +17,7 @@ import android.view.MenuItem;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    int idUsuario=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -91,11 +91,17 @@ public class HomeActivity extends AppCompatActivity
 
 
         } else if (id == R.id.nav_registro) {{
-            startActivity(new Intent(this,Reg_asistecia.class));
+            Intent intent=new Intent();
+            intent.putExtra("idUsuario", idUsuario);
+            intent.setClass(this, SimpleScannerActivity.class);
+            startActivity(intent);
 
         }
 
-        } else if (id == upeu.edu.pe.william.R.id.nav_slideshow) {
+        } else if (id == R.id.nav_asistenciaw) {
+            Intent  inte=new Intent();
+            inte.setClass(this,ListarAsistenciaActivity.class);
+            startActivity(inte);
 
         } else if (id == upeu.edu.pe.william.R.id.nav_manage) {
 
