@@ -1,5 +1,6 @@
 package upeu.edu.pe.william;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -97,7 +98,9 @@ public class HomeActivity extends AppCompatActivity
 
         } else if (id == upeu.edu.pe.william.R.id.nav_share) {
 
-        } else if (id == upeu.edu.pe.william.R.id.nav_send) {
+        } else if (id == R.id.salir) {
+            Intent intent = new Intent(this,AsistenciaActivity.class);
+            startActivity(intent);
 
         }
 
