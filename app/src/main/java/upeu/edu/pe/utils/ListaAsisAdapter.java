@@ -43,7 +43,6 @@ public class ListaAsisAdapter extends ArrayAdapter<AsistenciaTO>{
             holder.codigo=(TextView)connverView.findViewById(R.id.idCodigoAsis);
             holder.nombres=(TextView)connverView.findViewById(R.id.idNombreAsis);
             holder.hora=(TextView)connverView.findViewById(R.id.idHotaAsis);
-            holder.usuario=(TextView)connverView.findViewById(R.id.idNombreUsuario);
             connverView.setTag(holder);
 
         }else{ holder=(ViewAsistencia)connverView.getTag(); }
@@ -52,7 +51,7 @@ public class ListaAsisAdapter extends ArrayAdapter<AsistenciaTO>{
             holder.codigo.setText(asisTO.getCodigo());
             holder.nombres.setText(asisTO.getNombres());
             holder.hora.setText(asisTO.getFechahora());
-            holder.usuario.setText(asisTO.getNombreusuario());
+
 
         return connverView;
     }

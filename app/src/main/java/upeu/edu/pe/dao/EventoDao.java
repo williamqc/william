@@ -7,13 +7,14 @@ import android.database.sqlite.SQLiteDatabase;
 import java.util.ArrayList;
 import java.util.List;
 
-import upeu.edu.pe.db.DBconn;
+import upeu.edu.pe.db.DBconnExterno;
+
 import upeu.edu.pe.to.EventoTO;
 
 
 
-public class EventoDao extends DBconn {
-    DBconn con;
+public class EventoDao extends DBconnExterno {
+    DBconnExterno con;
     Context contex;
     SQLiteDatabase db;
     Cursor cur;
@@ -25,7 +26,7 @@ public class EventoDao extends DBconn {
     }
 
     public int eventoActivo(){
-        con=new DBconn(contex);
+        con=new DBconnExterno(contex);
         db=con.getReadableDatabase();
         sql=" select * from evento where estado='1' ";
         cur=db.rawQuery(sql, null);
@@ -37,7 +38,7 @@ public class EventoDao extends DBconn {
     }
 
     public List ListarEvento(){
-        con=new DBconn(contex);
+        con=new DBconnExterno(contex);
         db=con.getReadableDatabase();
         sql=" select * from evento";
         cur=db.rawQuery(sql,null);
@@ -56,7 +57,7 @@ public class EventoDao extends DBconn {
     }
 
     public void cambiarEstadoEvento(int idEvento){
-        con=new DBconn(contex);
+        con=new DBconnExterno(contex);
         db=con.getWritableDatabase();
         db.execSQL("update evento set estado='0' ");
         db.execSQL("update evento set estado='1' where idEvento="+idEvento+" ");

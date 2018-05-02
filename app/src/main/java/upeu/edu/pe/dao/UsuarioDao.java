@@ -5,11 +5,12 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
 import upeu.edu.pe.db.DBExterno;
-import upeu.edu.pe.db.DBconn;
+import upeu.edu.pe.db.DBconnExterno;
+
 
 
 public class UsuarioDao extends DBExterno {
-    DBExterno con;
+    DBconnExterno con;
     Context contex;
     SQLiteDatabase db;
     Cursor cur;
@@ -21,7 +22,7 @@ public class UsuarioDao extends DBExterno {
     }
 
     public boolean validarUsuario(String usuario, String clave){
-        con=new DBExterno(contex);
+        con= new DBconnExterno(contex);
         db=con.getReadableDatabase();
         sql=" select * from usuario where usuario='"+usuario+"' and clave='"+clave+"'";
         cur=db.rawQuery(sql, null);
@@ -33,7 +34,7 @@ public class UsuarioDao extends DBExterno {
     }
 
     public Cursor listarUsuario(String usuario){
-        con=new DBExterno(contex);
+        con= new DBconnExterno(contex);
         db=con.getReadableDatabase();
         sql=" select * from usuario where usuario='"+usuario+"'";
         cur=db.rawQuery(sql, null);

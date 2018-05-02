@@ -17,7 +17,7 @@ public class ListarAsistenciaActivity extends AppCompatActivity {
         ListView lista=(ListView)findViewById(upeu.edu.pe.william.R.id.idListaAsis);
         dao=new AsistenciaDao(this);
 
-        ListaAsisAdapter adapter=new ListaAsisAdapter(this,dao.listarAsistenciaArray());
+        ListaAsisAdapter adapter=new ListaAsisAdapter(this,dao.listerAssistanceArray());
         lista.setAdapter(adapter);
     }
 }
